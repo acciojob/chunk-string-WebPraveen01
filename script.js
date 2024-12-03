@@ -13,5 +13,5 @@ const chunks = [];
 
 // Do not change the code below
 const str = prompt("HelloWorld");
-const size = prompt("3");
+const size = prompt(3);
 alert(stringChop(str, size));
