@@ -1,4 +1,7 @@
 function stringChop(str, size) {
+	if (!str) {
+    return [];
+}
     const chunks = [];
 
     // Loop through the string and slice it into chunks
